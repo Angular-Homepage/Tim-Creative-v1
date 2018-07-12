@@ -25,7 +25,7 @@ import {AboutusComponent} from './aboutus/aboutus.component';
 import {ProductComponent} from './product/product.component';
 
 const routes: Routes =[
-    { path: '', redirectTo: 'aboutus2', pathMatch: 'full' },
+    { path: '', redirectTo: 'product', pathMatch: 'full' },
     { path: 'presentation',         component: PresentationComponent },
     { path: 'components',           component: ComponentsComponent },
     { path: 'sections',             component: SectionsComponent },

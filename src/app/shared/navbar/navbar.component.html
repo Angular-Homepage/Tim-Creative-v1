@@ -1,8 +1,8 @@
 <nav class="navbar navbar-expand-lg bg-white fixed-top navbar-transparent" color-on-scroll="500">
     <div class="container">
         <div class="navbar-translate">
-            <a class="navbar-brand" [routerLink]="['/presentation']" placement="bottom" ngbTooltip="Designed by Invision. Coded by Creative Tim">
-                Doctor's Fab
+            <a class="navbar-brand" [routerLink]="['/aboutus2']" placement="bottom" ngbTooltip="Doctor's Fab Home">
+                <img src ="assets/img/etc/favicon.png" style="height:35px"> Doctor's Fab
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo02"
                 aria-expanded="false" aria-label="Toggle navigation" (click)="sidebarToggle()">
@@ -13,12 +13,7 @@
         </div>
         <div class="collapse navbar-collapse" data-nav-image="assets/img/blurred-image-1.jpg" data-color="orange">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" [routerLink]="['/components']">
-                        <i class="now-ui-icons design_app"></i>
-                        <p>Components</p>
-                    </a>
-                </li>
+
                 <li class="nav-item">
                     <a class="nav-link" [routerLink]="['/aboutus2']">
                         <i class="now-ui-icons design_app"></i>
@@ -32,11 +27,19 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                        <a class="nav-link" [routerLink]="['/meeting']">
-                            <i class="now-ui-icons design_app"></i>
-                            <p>Meeting</p>
-                        </a>
-                    </li>
+                    <a class="nav-link" [routerLink]="['/meeting']">
+                        <i class="now-ui-icons design_app"></i>
+                        <p>Meeting</p>
+                    </a>
+                </li>
+<!--컴포넌트 부분 -->
+<!-- 
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/components']">
+                        <i class="now-ui-icons design_app"></i>
+                        <p>Components</p>
+                    </a>
+                </li>
                 <a ngbDropdown class="nav-item dropdown">
                     <div class="nav-link dropdown-toggle" ngbDropdownToggle>
                         <i class="now-ui-icons files_paper" aria-hidden="true"></i>
@@ -90,9 +93,12 @@
                         <a class="dropdown-item" [routerLink]="['/examples/register']">
                             <i class="now-ui-icons tech_mobile"></i> Signup Page</a>
                     </div>
-                </a>
+                </a> -->
+                <!--// 컴포넌트 부분 끝-->
+
+
                 <li class="nav-item">
-                    <a class="nav-link btn btn-primary" href="https://www.creative-tim.com/product/now-ui-kit-pro-angular">
+                    <a class="nav-link btn btn-primary" href="#">
                         <p>Contact</p>
                     </a>
                 </li>
